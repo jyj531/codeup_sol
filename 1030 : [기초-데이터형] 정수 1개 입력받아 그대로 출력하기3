@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main()
+{
+	long long int lan;
+
+	scanf("%lld", &lan);
+	printf("%lld", lan);
+
+	return 0;
+}
