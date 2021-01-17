@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main()
+{
+	char lan[20];
+	int i = 0;
+
+	scanf("%s", lan);
+	
+	while (1)
+	{
+		if (lan[i] == NULL)
+			break;
+		printf("'%c'\n", lan[i]);
+		i++;
+	}
+
+	return 0;
+}
