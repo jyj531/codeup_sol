@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main()
+{
+	char en;
+
+	scanf("%c", &en);
+	printf("%c", en + 1);
+
+	return 0;
+}
