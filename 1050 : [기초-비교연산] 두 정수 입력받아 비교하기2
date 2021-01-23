@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main()
+{
+	long long int a, b;
+	int ans = 0;
+
+	scanf("%lld %lld", &a, &b);
+
+	if (a == b)
+		ans = 1;
+	else
+		ans = 0;
+
+	printf("%d", ans);
+
+	return 0;
+}
