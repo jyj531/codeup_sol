@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main()
+{
+	int x, y, ans = 0;;
+	scanf("%d %d", &x, &y);
+
+	if (x == 1 || y == 1)
+		ans = 1;
+	else
+		ans = 0;
+
+	printf("%d", ans);
+	return 0;
+}
